@@ -1,8 +1,8 @@
-# 🌩️ Desafio: O Apagão de Nexópolis
+# 🌩️ Desafio: O Apagão de MatrixCity
 
 ## 📖 História
 
-Uma tempestade devastou a cidade de **Nexópolis**. Várias áreas foram destruídas e os hospitais estão sem energia. Felizmente, a cidade possui geradores de emergência espalhados pelos quarteirões.
+Uma tempestade devastou a cidade de **MatrixCity**. Várias áreas foram destruídas e os hospitais estão sem energia. Felizmente, a cidade possui geradores de emergência espalhados pelos quarteirões.
 
 Você é o **coordenador de crise** e precisa analisar o mapa da cidade para tomar decisões rápidas. Cada quarteirão da grade é representado por um número:
 
@@ -38,7 +38,7 @@ Exiba o mapa formatado e conte quantas áreas de cada tipo existem na cidade.
 
 **Saída esperada:**
 ```
-=== MAPA DE NEXÓPOLIS ===
+=== MAPA DE MatrixCity ===
 1 0 2 0 1
 0 9 0 1 3
 1 0 1 9 2
