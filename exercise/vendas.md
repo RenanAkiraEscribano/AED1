@@ -1,9 +1,9 @@
 # Atividade Prática — Sistema de Relatório de Vendas
 
-**Disciplina:** Programação de Computadores  
+**Disciplina:** AED1 
 **Tema:** Funções e Modularização  
 **Nível:** Intermediário  
-**Entrega:** Individual  
+
 
 ---
 
