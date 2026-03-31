@@ -130,34 +130,4 @@ O relatório gerado deve seguir o formato abaixo (os valores dependem da sua imp
 
 ---
 
-## Critérios de avaliação
 
-| Critério | Descrição | Peso |
-|---|---|---|
-| Correção funcional | As funções retornam os valores corretos para os dados fornecidos e para outros casos testados | 40% |
-| Reutilização real | As funções de `utils.py` são chamadas mais de uma vez em `main.py`, sem duplicação de lógica | 25% |
-| Clareza e nomes | Variáveis e funções com nomes descritivos; código legível | 20% |
-| Relatório formatado | Saída alinhada e produzida via `formatar_linha`, sem formatações espalhadas pelo `main` | 15% |
-
----
-
-## Extensões opcionais
-
-Para quem concluir a atividade antes do prazo, as extensões abaixo valem pontos extras:
-
-- **Classificação de desempenho:** implemente uma função `classificar_produto(total)` em `utils.py` que retorne `"alto"`, `"médio"` ou `"baixo"` com base em intervalos definidos. Exiba a classificação ao lado de cada produto no relatório.
-
-- **Leitura de arquivo:** substitua os dados fixos por leitura de um arquivo `vendas.csv`, mantendo todas as funções de `utils.py` sem modificação.
-
-- **Comparação de semanas:** receba os dados de duas semanas distintas e gere um relatório comparativo, reutilizando todas as funções já implementadas.
-
----
-
-## Entrega
-
-Envie os dois arquivos (`utils.py` e `main.py`) compactados em um `.zip` nomeado como `ra_nome_atividade2.zip`.  
-Certifique-se de que o código executa sem erros antes de enviar.
-
----
-
-*Dúvidas? Utilize o fórum da disciplina ou o horário de atendimento.*
