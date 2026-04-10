@@ -1,9 +1,8 @@
-# Atividade Prática — Árvore Genealógica de Personagens
+# Árvore Genealógica de Personagens
 
-**Disciplina:** Programação de Computadores  
+**Disciplina:** AED1  
 **Tema:** Funções Recursivas e Modularização  
-**Nível:** Intermediário  
-**Entrega:** Individual  
+ 
 
 ---
 
@@ -193,34 +192,6 @@ Descendentes de Aldo: 9
 | `calcular_geracao` | Parâmetro + retorno antecipado | Combina os dois padrões anteriores |
 | `listar_nomes` | Concatenação de listas | Cada chamada retorna uma lista que é somada (`+`) às demais |
 | `maior_idade` | Comparação de retornos | Compara o nó atual com o melhor resultado das sub-árvores |
-
----
-
-## Critérios de avaliação
-
-| Critério | Descrição | Peso |
-|---|---|---|
-| Correção funcional | As funções produzem resultados corretos para a estrutura fornecida e para outras estruturas testadas pelo professor | 40% |
-| Uso real de recursão | Nenhuma função usa loops para percorrer a árvore; a repetição ocorre exclusivamente por chamadas recursivas | 30% |
-| Caso base definido | Cada função possui um caso base explícito e correto que encerra a recursão | 15% |
-| Clareza e organização | Nomes descritivos, código legível, separação correta entre `utils.py` e `main.py` | 15% |
-
----
-
-## Extensões opcionais
-
-Para quem concluir antes do prazo:
-
-- **Ancestrais:** implemente `listar_ancestrais(no, nome)` que retorna uma lista com todos os ancestrais de um personagem, do pai até a raiz.
-- **Nível mais profundo:** implemente `profundidade_maxima(no)` que retorna o número de gerações da árvore (profundidade máxima).
-- **Personagens por geração:** implemente `listar_por_geracao(no, geracao_alvo, geracao_atual=0)` que retorna todos os personagens de uma geração específica.
-
----
-
-## Entrega
-
-Envie os dois arquivos (`utils.py` e `main.py`) compactados em um `.zip` nomeado como `ra_nome_atividade3.zip`.  
-Certifique-se de que o código executa sem erros antes de enviar.
 
 ---
 
